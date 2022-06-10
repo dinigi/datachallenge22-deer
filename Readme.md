@@ -6,30 +6,34 @@ Analysis Geo 880**
 | Semester:      | FS22                              |
 |----------------|---------------------------------- |
 | **Data:**      | Roe Deer Movement Data            |
-| **Title:**     | The title of your project         |
-| **Student 1:** | Name of Student 1                 |
-| **Student 2:** | Name of Student 2                 |
+| **Title:**     | Analysing Roe Deer Movement Data  |
+| **Student:**   | Diego Gil                         |
+
 
 ## Abstract 
 <!-- (50-60 words) -->
 
 ## Research Questions
-<!-- (50-60 words) -->
+Do the animals show site fidelity (territorial behaviour)? If yes, what is their home range (revisited area)?  
 
 ## Results / products
-<!-- What do you expect, anticipate? -->
+Describing each animals home range and visualizing it on a map
 
 ## Data
-<!-- What data will you use? Will you require additional context data? Where do you get this data from? Do you already have all the data? -->
+Roe Deer Movement Data: Location + Date & time
 
 ## Analytical concepts
-<!-- Which analytical concepts will you use? What conceptual movement spaces and respective modelling approaches of trajectories will you be using? What additional spatial analysis methods will you be using? -->
+- Site fidelity: Linearity index & Mean Squared Distance (MSD)
+- Home range: Jennrich-Turner method
 
 ## R concepts
-<!-- Which R concepts, functions, packages will you mainly use. What additional spatial analysis methods will you be using? -->
+- adehabitatLT: tools for wildlife trajectories
+- adehabitatHR: tools for working out species’ home ranges
+- adehabitatHS: tools for exploring habitat suitability
+- adehabitatMA: tools for mapping data concerning species
 
 ## Risk analysis
-<!-- What could be the biggest challenges/problems you might face? What is your plan B? -->
+If the animals do not show territorial behaviour then there won't be a home range. Also it will be important to see wether the tracks are regular or irregular. In this case I would maybe focus on visualizing/animating the movement data to find other interesting patterns.
 
 ## Questions? 
-<!-- Which questions would you like to discuss at the coaching session? -->
+I'm sure something will come up :)
