@@ -11,10 +11,10 @@ Analysis Geo 880**
 
 
 ## Abstract 
-<!-- (50-60 words) -->
+I'm interested in visualizing which areas the individual animals return to the most and how these "core areas" might change over time.
 
 ## Research Questions
-Do the animals show site fidelity (territorial behaviour)? If yes, what is their home range (revisited area)?  
+Do the animals show site fidelity (territorial behaviour)? If yes, what is their core area (location they revisit the most)?  
 
 ## Results / products
 Describing each animals home range and visualizing it on a map
@@ -27,13 +27,13 @@ Roe Deer Movement Data: Location + Date & time
 - Home range: Jennrich-Turner method
 
 ## R concepts
-- adehabitatLT: tools for wildlife trajectories
+- adehabitatLT: tools for wildlife trajectories (https://mran.microsoft.com/snapshot/2018-03-12/web/packages/adehabitatLT/vignettes/adehabitatLT.pdf)
 - adehabitatHR: tools for working out species’ home ranges
 - adehabitatHS: tools for exploring habitat suitability
 - adehabitatMA: tools for mapping data concerning species
 
 ## Risk analysis
-If the animals do not show territorial behaviour then there won't be a home range. Also it will be important to see wether the tracks are regular or irregular. In this case I would maybe focus on visualizing/animating the movement data to find other interesting patterns.
+If the data is very irregular it could be problematic and i would then rather focus on visualizing/animating the movements to find other interesting patterns of behaviour
 
 ## Questions? 
-I'm sure something will come up :)
+I'm sure questions will come up :)
